@@ -1,9 +1,8 @@
 package server
 
 import (
+	"github.com/markustenghamn/wiki/db"
 	"net/http"
-
-	"github.com/peterhellberg/wiki/db"
 )
 
 func (s *Server) edit(w http.ResponseWriter, r *http.Request) {

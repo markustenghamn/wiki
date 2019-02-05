@@ -3,7 +3,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/peterhellberg/wiki/db"
+	"github.com/markustenghamn/wiki/db"
 )
 
 func (s *Server) show(w http.ResponseWriter, r *http.Request) {

@@ -3,3 +3,5 @@ vendor/**/*_test.go
 vendor/**/*.yml
 vendor/**/*.cfg
 tmp
+.idea
+wiki

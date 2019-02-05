@@ -7,7 +7,7 @@
 //
 // You can install wiki with go get:
 //
-//     go get -u github.com/peterhellberg/wiki
+//     go get -u github.com/markustenghamn/wiki
 //
 // Usage
 //
@@ -27,8 +27,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/peterhellberg/wiki/db"
-	"github.com/peterhellberg/wiki/server"
+	"github.com/markustenghamn/wiki/db"
+	"github.com/markustenghamn/wiki/server"
 )
 
 var dbFile string

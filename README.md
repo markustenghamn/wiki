@@ -1,19 +1,18 @@
 Wiki
 ====
 
-A tiny wiki using [BoltDB](https://github.com/boltdb/bolt) and [Blackfriday](https://github.com/russross/blackfriday).
+Based on [wiki](https://github.com/peterhellberg/wiki) by peterhellberg. A tiny wiki using [BoltDB](https://github.com/boltdb/bolt) and [Blackfriday](https://github.com/russross/blackfriday).
 
-[![Build Status](https://travis-ci.org/peterhellberg/wiki.svg?branch=master)](https://travis-ci.org/peterhellberg/wiki)
-[![Go Report Card](https://goreportcard.com/badge/github.com/peterhellberg/wiki)](https://goreportcard.com/report/github.com/peterhellberg/wiki)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/peterhellberg/wiki)
-[![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/peterhellberg/wiki#license-mit)
-
-![wiki](https://assets.c7.se/screenshots/wiki-20170920-015158.png)
+My version adds some basic authentication based on the following env variables:
+```
+WIKI_USERNAME
+WIKI_PASSWORD
+```
 
 ## Installation
 
 ```bash
-go get -u github.com/peterhellberg/wiki
+go get -u github.com/markustenghamn/wiki
 ```
 
 ## Usage

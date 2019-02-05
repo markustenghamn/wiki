@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/peterhellberg/wiki/db"
+	"github.com/markustenghamn/wiki/db"
 )
 
 func (s *Server) save(w http.ResponseWriter, r *http.Request) {
