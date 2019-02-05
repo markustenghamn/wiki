@@ -1,7 +1,6 @@
 package server
 
 import (
-	"fmt"
 	"html/template"
 	"log"
 	"net/http"
@@ -22,8 +21,6 @@ type Server struct {
 
 // New creates a new wiki server
 func New(logger *log.Logger, db *db.DB) *Server {
-	fmt.Println(os.Getenv("WIKI_USERNAME"))
-	fmt.Println(os.Getenv("WIKI_PASSWORD"))
 	return &Server{
 		logger:   logger,
 		db:       db,
