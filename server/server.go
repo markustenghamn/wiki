@@ -97,7 +97,6 @@ func (s *Server) basicAuth(w http.ResponseWriter, r *http.Request) bool {
 		http.Error(w, "Not authorized", 401)
 		return false
 	}
-	fmt.Println(username, "server", s.username, password, "serverp", s.password)
 	if username != s.username || password != s.password {
 		http.Error(w, "Not authorized", 401)
 		return false
